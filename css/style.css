@@ -1,0 +1,97 @@
+body{
+    background-image: url(../image/Фон.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+
+}
+
+.container{
+    max-width:1170px;
+    margin:0 auto;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 48%;
+}
+.logo img{
+    width: 55px;
+    height: 55px;
+}
+
+.header__title{
+    font-family: "Playfair Display",sans-serif;
+    font-size: 135px;
+    line-height: 85%;
+    text-align: center;
+    color: #DA9F89;
+    position: absolute;
+    width: 682px;
+    left: 500px;
+    top: 185px;
+    margin-bottom: 168px;
+}
+
+.header__descr{
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 33px;
+    line-height: 85%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 573px;
+    height: 39px;
+    left: 550px;
+    top: 475px;
+}
+
+.nav{
+    position: absolute;
+width: 500px;
+height: 20px;
+left: 615px;
+top: 655px;
+font-family: Playfair Display;
+font-size: 18px;
+line-height: 85%;
+text-align: center;
+color: #FFFFFF;
+}
+.nav ul{
+    display:flex;
+    justify-content: space-between;
+}
+.nav li a{
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 85%;
+text-align: center;
+color: #FFFFFF;
+text-decoration: none;
+margin-bottom: 231px;
+}
+
+.nav li a:hover{
+    text-shadow: 3px 3px 5px #DA9F89;
+}
+
+.info__title{
+    position: absolute;
+width: 129px;
+height: 72px;
+left: 895px;
+top: 1172px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 150.5%;
+color: #DA9F89;
+}
