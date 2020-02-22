@@ -1,6 +1,8 @@
 body{
     background-image: url(../image/Фон.jpg);
-    background-size: cover;
+    background-size: 1350px;
+    background-position: center;
+    background-position-y: -10px;
     background-repeat: no-repeat;
     background-color: #000;
 
@@ -30,7 +32,7 @@ body{
     color: #DA9F89;
     position: absolute;
     width: 682px;
-    left: 500px;
+    left: 530px;
     top: 185px;
     margin-bottom: 168px;
 }
@@ -45,7 +47,7 @@ body{
     color: #FFFFFF;
     width: 573px;
     height: 39px;
-    left: 550px;
+    left: 580px;
     top: 475px;
 }
 
@@ -82,16 +84,42 @@ margin-bottom: 231px;
 }
 
 .info__title{
-    position: absolute;
+position: absolute;
 width: 129px;
 height: 72px;
-left: 895px;
-top: 1172px;
+left: 525px;
+top: 850px;
 
-font-family: Playfair Display;
-font-style: normal;
+font-family: "Playfair Display",sans-serif;
 font-weight: bold;
-font-size: 48px;
+font-size: 38px;
 line-height: 150.5%;
 color: #DA9F89;
+}
+
+.info__img img{
+position: absolute;
+width: 850px;
+height: 500px;
+left: 270px;
+top: 1040px;
+}
+
+.info__text{
+position: absolute;
+width: 500px;
+height: 400px;
+left: 30px;
+top: 980px;
+background: #000000;
+border: 1px solid #DA9F89;
+box-sizing: border-box;
+z-index:99;
+
+font-family: Montserrat;
+font-size: 20px;
+padding: 30px 30px;
+line-height: 188%;
+
+color: #FFFFFF;
 }
